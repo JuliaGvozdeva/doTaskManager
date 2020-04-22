@@ -15,3 +15,25 @@ body {
   font-weight: 400;
   padding-top: 5px;
 }
+
+.task-title-done {
+  color: rgb(198, 203, 207);
+  text-decoration: line-through;
+}
+
+.btn-delete {
+  width: 27px;
+  height: 27px;
+  background-image: url("/img/exit.svg");
+}
+
+.btn-done {
+  width: 27px;
+  height: 27px;
+  background-size: contain;
+  background-image: url("/img/icons8-unchecked-checkbox-50.png");
+}
+
+.ready {
+  background-image: url("/img/icons8-tick-box-24.png");
+}
