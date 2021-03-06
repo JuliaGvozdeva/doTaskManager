@@ -8,37 +8,19 @@
 	<title>ToDo Application</title>
 </head>
 <body>
-
-
-	<div class="container">
+		<div class="container">
 		<div class="display-4 mb-2">ToDo приложение</div>
 		<div class="h4 mb-5">список задач на сегодня</div>
-
-		<!-- <div class="alert alert-warning" role="alert">
-		  Задача добавлена!
-		</div> -->
-
-		<!-- <div class="alert alert-success" role="alert">
-		  Задача выполнена!
-		</div> -->
-
-		<!-- <div class="alert alert-danger" role="alert">
-		   Задача удалена!
-		</div> -->
 
 		<!-- List of tasks -->
 		<div id="cardContainer" class="card mb-4">
 			<ul id="taskList" class="list-group list-group-flush">
-			
-				<!-- <li class="list-group-item d-flex justify-content-between">
-					<span class="task-title">Прийти на вебинар</span>
-					<button type="button" data-action="delete-task" class="btn btn-light align-self-end">Удалить</button>
-				</li> -->
+				<li id="emptyListItem" class="list-group-item text-center">
+					Список дел пуст :(
+				</li>
 			</ul>
 		</div>
 		<!-- //List of tasks -->
-
-
 
 		<!-- Form add new task -->
 		<div class="card bg-light" >
@@ -49,15 +31,12 @@
 				<input type="text" class="form-control" id="addNewTask" placeholder="Текст задачи" required>
 				<small id="emailHelp" class="form-text text-muted">Что делаем, сколько времени тратим, какой результат получаем.</small>
 			</div>
-			
-			
+						
 			<button type="submit" class="btn btn-primary  btn-lg active">Добавить</button>
 		</form>
 			</div>
 			</div>
 		<!-- //Form add new task -->
-
-
 	</div>
 
 
