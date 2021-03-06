@@ -12,8 +12,8 @@ formTask.addEventListener("submit", function(event){
     const taskText = input.value.trim();
     const taskHTML = `<li class="list-group-item d-flex justify-content-between"><span contenteditable="true" class="task-title">${taskText}</span>
     <div id="buttons-task">
-        <button type="button" data-action="ready" class="btn btn-light align-self-end btn-done"></button>
-        <button type="button" data-action="delete-task" class="btn btn-light align-self-end btn-delete"></button>
+        <button type="button" data-action="ready" class="btn btn-light align-self-end btn-done">Готово</button>
+        <button type="button" data-action="delete-task" class="btn btn-light align-self-end btn-delete">Удалить</button>
     </div></li>`
 
     // Добавление новой задачи 
